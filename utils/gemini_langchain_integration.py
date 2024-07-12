@@ -1,4 +1,4 @@
-# your_gemini_integration.py
+# gemini_integration.py
 import os
 from dotenv import load_dotenv
 from google.cloud import gemini
