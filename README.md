@@ -1,8 +1,8 @@
 # LangChain Crash Course
 
 Welcome to the LangChain Crash Course! This repo contains all the code examples we'll need to follow along with the LangChain Master Class for Beginners video. 
-<br>
-This is my personal repository for the LangChain Crash Course. I will be following along with the LangChain Master Class for Beginners video and adding my own notes and code examples to this repository. <br>
+<br><br>
+This is my personal repository for the LangChain Crash Course. I will be following along with the LangChain Master Class for Beginners video and adding my own notes and code examples to this repository. <br><br>
 Since OpenAI doesn't have a free tier for GPT-4 or GPT-3, I will be using Google Gemini for the examples in this repository. <br>
 
 ## Course Outline
