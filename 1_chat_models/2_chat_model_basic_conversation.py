@@ -1,12 +1,13 @@
 from dotenv import load_dotenv
 from langchain_core.messages import AIMessage, HumanMessage, SystemMessage
-from langchain_openai import ChatOpenAI
+# Import ChatGemini instead of ChatOpenAI
+from utils.gemini_langchain_integration import ChatGemini
 
 # Load environment variables from .env
 load_dotenv()
 
-# Create a ChatOpenAI model
-model = ChatOpenAI(model="gpt-4o")
+# Create a ChatGemini model instance, using the correct environment variable for the API key
+model = ChatGemini(api_key=os.getenv("GOOGLE_API_KEY"))
 
 # SystemMessage:
 #   Message for priming AI behavior, usually passed in as the first of a sequenc of input messages.
