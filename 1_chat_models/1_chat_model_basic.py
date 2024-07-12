@@ -3,7 +3,7 @@
 
 from dotenv import load_dotenv
 # Assuming ChatGemini is a class you have that can interact with Google Gemini
-from your_gemini_integration import ChatGemini
+from utils.gemini_langchain_integration import ChatGemini
 
 # Load environment variables from .env
 load_dotenv()
